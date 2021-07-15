@@ -26,5 +26,6 @@ class DiscountManager:
 
         return prices
 
+    # Return new dictionary excluding given keys
     def exclude_keys(self, keys, dict):
         return {k: v for k, v in dict.items() if k not in keys}

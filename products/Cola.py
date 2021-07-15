@@ -1,5 +1,6 @@
 from products.Product import Product
 
+
 class Cola(Product):
     name = "Coca-Cola"
     code = "CC"

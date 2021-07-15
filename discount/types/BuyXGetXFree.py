@@ -12,7 +12,7 @@ class BuyXGetXFree:
         if count_to_buy > count_of_products:
             return price_of_single_product * count_of_products
 
-        # Applicable Case
+        # Discount Case
         free_items_count = self.calculate_free_items_count(count_of_products, count_to_buy, count_to_get_free)
         paid_items_count = count_of_products - free_items_count
 

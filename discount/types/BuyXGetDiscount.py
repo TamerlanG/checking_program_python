@@ -9,7 +9,7 @@ class BuyXGetDiscount:
         if count_to_get_discount > count_of_products:
             return price_of_single_product * count_of_products
 
-        # Applicable Case
+        # Discount Case
         discount = (discount_percentage / 100) * price_of_single_product
         new_price = price_of_single_product - discount
 
