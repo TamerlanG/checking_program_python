@@ -16,7 +16,7 @@ Program to calculate your spending
 Clone the repository
 
 ```bash
-git clone something something 
+git clone https://github.com/TamerlanG/checking_program_python.git
 ```
 
 ## Examples
